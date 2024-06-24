@@ -15,8 +15,9 @@ markdown_extensions:
       base_path: .
   - admonition
 nav:
-  - 'Hardware Setup': '/docs/01_hardware_setup.md'
-  - 'Initial Configuration': '/docs/02_initial_config.md'
-  - 'Installation': '/docs/03_installation.md'
-  - 'Train': '/docs/04_train.md'
-  - 'Troubleshooting': '/docs/05_troubleshooting.md'
+  - 'Home': 'index.md'
+  - 'Hardware Setup': '01_hardware_setup.md'
+  - 'Initial Configuration': '02_initial_config.md'
+  - 'Installation': '03_installation.md'
+  - 'Train': '04_train.md'
+  - 'Troubleshooting': '05_troubleshooting.md'
