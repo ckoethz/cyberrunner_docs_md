@@ -14,3 +14,9 @@ markdown_extensions:
   - markdown_include.include:
       base_path: .
   - admonition
+nav:
+  - 'Hardware Setup': '/docs/01_hardware_setup.md'
+  - 'Initial Configuration': '/docs/02_initial_config.md'
+  - 'Installation': '/docs/03_installation.md'
+  - 'Train': '/docs/04_train.md'
+  - 'Troubleshooting': '/docs/05_troubleshooting.md'
