@@ -9,8 +9,8 @@ Hardware Setup
 ### Motors
 * 2x [ROBOTIS Dynamixel MX-12W](https://www.robotis.us/dynamixel-mx-12w/)
 * 1x [ROBOTIS Dynamixel Starter Set](https://www.robotis.us/dynamixel-starter-set-us/) (select the correct US/INTL version)
-* 2x [Motor couplings](../../blob/main/assets/brio_coupler.stp) (to 3d print)
-* 2x [Motor mounting brackets](../../blob/main/assets/brio_motor_l.stp) (to 3d print)
+* 2x [Motor couplings](../blob/main/assets/brio_coupler.stp) (to 3d print)
+* 2x [Motor mounting brackets](../blob/main/assets/brio_motor_l.stp) (to 3d print)
 * 8x M2.5x10 wood screws
 
 **Disclaimer**: The Dynamixel MX-12W motors have been discontinued. Instructions using a suitable replacement will follow with the next release.
