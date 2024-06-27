@@ -13,8 +13,6 @@ Hardware Setup
 * 2x [Motor mounting brackets](https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/brio_motor_l.stp) (to 3d print)
 * 8x M2.5x10 wood screws
 
-**Disclaimer**: The Dynamixel MX-12W motors have been discontinued. Instructions using a suitable replacement will follow with the next release.
-
 !!! disclaimer
 
     The Dynamixel MX-12W motors have been discontinued. Instructions using a suitable replacement will follow with the next release.
