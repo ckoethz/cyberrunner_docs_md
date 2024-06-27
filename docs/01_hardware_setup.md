@@ -15,6 +15,10 @@ Hardware Setup
 
 **Disclaimer**: The Dynamixel MX-12W motors have been discontinued. Instructions using a suitable replacement will follow with the next release.
 
+!!! disclaimer
+
+    The Dynamixel MX-12W motors have been discontinued. Instructions using a suitable replacement will follow with the next release.
+
 ### Camera
 * 1x [See3CAM_24CUG USB3 Camera](https://www.e-consystems.com/industrial-cameras/ar0234-usb3-global-shutter-camera.asp#) (with enclosure)
 * 2x Aluminum T-slot profiles (TODO lengths)
