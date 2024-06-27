@@ -11,14 +11,18 @@ In order for the position of the ball within the labyrinth to be tracked, we nee
 
         ros2 run cyberrunner_camera take_pictures.py
     Example calibration pictures are shown below. TODO
+
 2. Save the calibration results by clicking on **Export Data** in the OCamCalib GUI. This will create the file `calib_results.txt` in your MATLAB workspace.
+
 3. Copy the `calib_results.txt` file to your ROS workspace with
 
         cp <path_to_matlab_workspace>/calib_results.txt <path_to_cyberrunner_ws>/src/cyberrunner/cyberrunner_state_estimation/cyberrunner_state_estimation/data
     Replace `<path_to_matlab_workspace>` and `<path_to_cyberrunner_ws>` with the path to your MATLAB workspace and your CyberRunner ROS workspace, respectively.
+
 4. Select corners. TODO add image, and update instruction
 
         ros2 run cyberrunner_camera select_corners.py
+        
 5. (Optional) Create mask. TODO
 
 ## Motor Configuration
