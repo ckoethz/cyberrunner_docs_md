@@ -11,11 +11,11 @@ Welcome to the CyberRunner wiki! Here you'll find tutorials and other useful inf
 
 ## Tutorials
 
-* [Hardware Setup](Hardware-Setup): Build your own CyberRunner robot.
-* [Installation](Installation): Install all necessary dependencies and the CyberRunner software stack.
-* [Initial Configuration](Initial-Configuration): Calibrate the camera and configure the motors.
-* [Train](Train): Let CyberRunner learn to play the labyrinth game.
-* [Troubleshooting](Troubleshooting): Fix common issues.
+* [Hardware Setup](01_hardware_setup): Build your own CyberRunner robot.
+* [Installation](02_installation): Install all necessary dependencies and the CyberRunner software stack.
+* [Initial Configuration](03_initial_config): Calibrate the camera and configure the motors.
+* [Train](04_train): Let CyberRunner learn to play the labyrinth game.
+* [Troubleshooting](05_troubleshooting): Fix common issues.
 
 !!! note
 

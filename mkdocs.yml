@@ -17,7 +17,7 @@ markdown_extensions:
 nav:
   - 'Home': 'index.md'
   - 'Hardware Setup': '01_hardware_setup.md'
-  - 'Initial Configuration': '02_initial_config.md'
-  - 'Installation': '03_installation.md'
+  - 'Installation': '02_installation.md'
+  - 'Initial Configuration': '03_initial_config.md'
   - 'Train': '04_train.md'
   - 'Troubleshooting': '05_troubleshooting.md'
