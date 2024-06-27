@@ -13,12 +13,12 @@ Installation
         # Note: wheels only available on linux.
         pip install --upgrade "jax[cuda11_pip]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
 
-2. Install [dreamerv3](https://github.com/danijar/dreamerv3). NOTE: The current version of [dreamerv3] requires [gym==0.19.0], which is not supported by [pip>=24.1]. [pip] must be downgraded to install [dreamerv3].
+2. Install [dreamerv3](https://github.com/danijar/dreamerv3). NOTE: The current version of 'dreamerv3' requires 'gym==0.19.0', which is not supported by 'pip>=24.1'. 'pip' must be downgraded to install 'dreamerv3'.
 
         python -m pip install --upgrade pip==24.0
         pip install dreamerv3
 
-Optional: To revert [pip] to the most updated version run the following.
+Optional: To revert 'pip' to the most updated version run the following.
 
         pip install --upgrade pip
 
