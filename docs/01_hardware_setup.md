@@ -56,10 +56,10 @@ Hardware Setup
 ![knobs](img/knobs.jpg)
 
 2. Mount the motor couplers to the front of the motors using the M2x6 bolts included with the motors.
-![newcouplers](img/motors_with_couplers.jpg)
+![newcouplers](img/newcouplings.jpg)
 
 3. Press fit the motors into the 3D-printed housings. This step is expected to take some effort.
-![newnuts](img/motors_in_housing.jpg)
+![newnuts](img/newhousing.jpg)
 
 4. Secure the motors into the housings with the M2x16 bolts.
 
