@@ -50,35 +50,31 @@ Hardware Setup
 
 ## Building CyberRunner
 
-###  MX-12W Motors
+###  XL330-M077-T Motors
 
 The two motor assemblies replace the knobs on the labyrinth for the reinforcement learning agent to play the game. 
 
-![motor_parts](img/motor_housing_parts.jpeg)
+![motor_parts](img/motor_housing_parts.jpg)
 
 1. Carefully remove the two knobs from the labyrinth by using a flathead screwdriver and pressing the knobs away from the labyrinth board. Slightly heating the knobs with a heat gun or a hairdryer will facilitate this process.
 ![knobs](img/knobs.jpg)
 
 2. Mount the motor couplers to the front of the motors using the M2x6 bolts included with the motors.
-![couplers](img/motors_with_couplers.jpeg)
+![couplers](img/motors_with_couplers.jpg)
 
 3. Press fit the motors into the 3D-printed housings. This step is expected to take some effort.
-![nuts](img/motors_in_housing.jpeg)
+![nuts](img/motors_in_housing.jpg)
 
 4. Secure the motors into the housings with the M2x16 bolts.
 
 5. Press both motor couplers over the labyrinth shafts. You may need to slightly heat the couplers with a heat gun or hairdryer. Then, fix the motors to the labyrinth by using the M2x10 wood screws.
-![motorfix](img/mounted_motor.jpeg)
+![motorfix](img/mounted_motor.jpg)
 
 ###  MX-12W Motors
 
 !!! disclaimer
 
     The Dynamixel MX-12W motors have been discontinued. Instructions for the Dynamizel XL330-M077-T motors are above.
-
-The two motor assemblies replace the knobs on the labyrinth for the reinforcement learning agent to play the game. 
-
-![motor_parts](img/motor_housing_parts.jpeg)
 
 1. Carefully remove the two knobs from the labyrinth by using a flathead screwdriver and pressing the knobs away from the labyrinth board. Slightly heating the knobs with a heat gun or a hairdryer will facilitate this process.
 ![knobs](img/knobs.jpg)
