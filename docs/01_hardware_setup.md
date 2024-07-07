@@ -6,7 +6,7 @@ Hardware Setup
 ### Labyrinth
 * 1x [BRIO Labyrinth](https://www.brio.us/en-US/products/games/labyrinth-game-63400000) (wooden version)
 
-### Motors XL330-M077-T
+### XL330-M077-T Motors
 * 2x [ROBOTIS Dynamixel XL330-M077-T](https://www.robotis.us/dynamixel-xl330-m077-t/)
 * 1x [ROBOTIS Dynamixel Starter Set](https://www.robotis.us/dynamixel-starter-set-us/) (select the correct US/INTL version)
 * 3x wires to extend cable to reach between both motors
@@ -18,7 +18,7 @@ Hardware Setup
 * 4x wood screws to mount bracket to the labyrinth (size)
 * 4x plastic washers to space bracket from labyrinth
 
-### Motors MX-12W
+### MX-12W Motors
 * 2x [ROBOTIS Dynamixel MX-12W Motors](https://www.robotis.us/dynamixel-mx-12w/)
 * 1x [ROBOTIS Dynamixel Starter Set](https://www.robotis.us/dynamixel-starter-set-us/) (select the correct US/INTL version)
 * 3x wires to extend cable to reach between both motors
@@ -51,10 +51,6 @@ Hardware Setup
 ## Building CyberRunner
 
 ###  XL330-M077-T Motors
-
-The two motor assemblies replace the knobs on the labyrinth for the reinforcement learning agent to play the game. 
-
-![motorparts](img/motor_housing_parts.jpg)
 
 1. Carefully remove the two knobs from the labyrinth by using a flathead screwdriver and pressing the knobs away from the labyrinth board. Slightly heating the knobs with a heat gun or a hairdryer will facilitate this process.
 ![knobs](img/knobs.jpg)
