@@ -53,25 +53,21 @@ Hardware Setup
 ###  XL330-M077-T Motors
 
 1. Carefully remove the two knobs from the labyrinth by using a flathead screwdriver and pressing the knobs away from the labyrinth board. Slightly heating the knobs with a heat gun or a hairdryer will facilitate this process.
-
 ![knobs](img/knobs.jpg)
-
+<br><br>
 
 2. Mount the motor couplers to the front of the motors using the M2x6 bolts included with the motors.
-
 ![newcouplers](img/newcouplings.jpg)
-
+<br><br>
 
 3. Press fit the motors into the 3D-printed housings. This step is expected to take some effort.
-
 ![newnuts](img/newhousing.jpg)
-
+<br><br>
 
 4. Secure the motors into the housings with the M2x16 bolts.
-
+<br><br>
 
 5. Press both motor couplers over the labyrinth shafts. You may need to slightly heat the couplers with a heat gun or hairdryer. Then, fix the motors to the labyrinth by using the M2x10 wood screws.
-
 ![newmotorfix](img/mounted_motor.jpg)
 
 
@@ -82,46 +78,38 @@ Hardware Setup
     The Dynamixel MX-12W motors have been discontinued. Instructions for the Dynamizel XL330-M077-T motors are above.
 
 1. Carefully remove the two knobs from the labyrinth by using a flathead screwdriver and pressing the knobs away from the labyrinth board. Slightly heating the knobs with a heat gun or a hairdryer will facilitate this process.
-
 ![knobs](img/knobs.jpg)
-
+<br><br>
 
 2. Mount the motor couplers to the front of the motors using the M2x6 bolts included with the motors.
-
 ![couplers](img/couplers.jpg)
-
+<br><br>
 
 3. Insert the included nuts on the underside of the motors.
-
 ![nuts](img/nuts.jpg)
-
+<br><br>
 
 4. Mount the included mounting frames of the motors to the 3d-printed mounting brackets using the included M2x6 bolts and nuts.
-
 ![brackets](img/brackets.jpg)
-
+<br><br>
 
 5. Attach the motors to the mounting frames using the included M2x6 bolts.
-
 ![motorframe](img/motorframe.jpg)
-
+<br><br>
 
 6. Press both motor couplers over the labyrinth shafts. You may need to slightly heat the couplers with a heat gun or hairdryer. Then, fix the motors to the labyrinth by using the M2.5x10 wood screws.
-
 ![motorfix](img/motorfix.jpg)
 
 
 ### Camera
 
 The camera has to be have a stable view of the whole labyrinth. This can be done with a scaffolding made with 2020 T-slotted Aluminum and a custom camera mounting plate as described below.
-
-![cameraparts](img/camera_scaffolding_parts.jpg){.center .medium}
+![cameraparts](img/camera_scaffolding_parts.jpg)
 
 
 1. Mount the camera to the mounting plate and assmble the aluminum profiles as shown in the picture below.
-
 ![cameramount](img/cameramount.jpg)
-
+<br><br>
 
 2. Mount the assembly to the labyrinth board using wood screws and appropriate washers. If done correctly, the camera should be centered over the labyrinth board. Additionally, the distance between the bottom of the lens and the labyrinth playing surface should be approximately 25cm.
 
@@ -138,7 +126,6 @@ The camera has to be have a stable view of the whole labyrinth. This can be done
 In the next step, we place blue markers on the labyrinth. These are used to estimate the inclination angles of the labyrinth playing surface.
 
 1. Place the first four blue labels on the centers of the corners of the labyrinth playing surface. The diameter of the labels and the width of the edge are both 8mm, and thus the labels should align with the outer edges. Place the next four blue labels on ... TODO.
-
 ![markers](img/markers.jpg)
 
 ### Cabling
@@ -147,9 +134,8 @@ In the next step, we place blue markers on the labyrinth. These are used to esti
 
 
 1. Clip the ends of 2 ROBOT X3P cables. Place extra wire between the corresponding pins and solder the connections. Apply heat shrink over the connections for protection.
-
-![extendedcable](img/extended_cable.jpg){.center .large}
-
+![extendedcable](img/extended_cable.jpg)
+<br><br>
 
 2. Connect the motors together with the extended ROBOT X3P cable. Connect the motor opposite of the camera scaffolding to the U2D2 with the ROBOT X3P cable from the Starter Kit. Connect the U2D2 to the Power Hub with another ROBOT X3P cable. See the [U2D2 Power Hub Manual](https://emanual.robotis.com/docs/en/parts/interface/u2d2_power_hub/) for more information.
 
