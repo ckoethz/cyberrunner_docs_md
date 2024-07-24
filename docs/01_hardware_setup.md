@@ -7,6 +7,7 @@ Hardware Setup
 * 1x [BRIO Labyrinth](https://www.brio.us/en-US/products/games/labyrinth-game-63400000) (wooden version)
 
 ### XL330-M077-T Motors
+TODO - redo 3D printed parts file to the new ones
 * 2x [ROBOTIS Dynamixel XL330-M077-T](https://www.robotis.us/dynamixel-xl330-m077-t/)
 * 1x [ROBOTIS Dynamixel Starter Set](https://www.robotis.us/dynamixel-starter-set-us/) (select the correct US/INTL version)
 * 3x wires to extend cable to reach between both motors
@@ -60,7 +61,7 @@ Hardware Setup
 ![newcouplers](img/newcouplings.jpg)
 <br><br>
 
-3. Press fit the motors into the 3D-printed housings. This step is expected to take some effort.
+3. Press fit the motors into the 3D-printed housings. This step is expected to take some effort. (TODO update with photos)
 ![newnuts](img/newhousing.jpg)
 <br><br>
 
@@ -115,9 +116,10 @@ The camera has to be have a stable view of the whole labyrinth. This can be done
 
 !!! Warning
 
-    Ensure that the wood screws do not interfere with the motion of the labyrinth playing surface!
+    Ensure that the wood screws do not interfere with the motion of the labyrinth playing surface!(TODO photo - also update photo with correct side of labyrinth)
 
-![camerafix](img/camerafix.jpg)
+![camerafix](img/camerafix.jpg) 
+(TODO update photo to place the camera onto the correct side.)
 
 
 
@@ -125,7 +127,10 @@ The camera has to be have a stable view of the whole labyrinth. This can be done
 
 In the next step, we place blue markers on the labyrinth. These are used to estimate the inclination angles of the labyrinth playing surface.
 
-1. Place the first four blue labels on the centers of the corners of the labyrinth playing surface. The diameter of the labels and the width of the edge are both 8mm, and thus the labels should align with the outer edges. Place the next four blue labels on ... TODO.
+1. Place the first four blue labels on the centers of the corners of the labyrinth playing surface. The diameter of the labels and the width of the edge are both 8mm, and thus the labels should align with the outer edges. 
+<br><br>
+2. The next four blue labels are for the outer perimeter of the labyrinth. The centers of the labels should be 5cm from the edge of the game along the short sides of the labyrinth. See the image below. 
+<br><br>
 ![markers](img/markers.jpg)
 
 ### Cabling
@@ -149,4 +154,4 @@ In the next step, we place blue markers on the labyrinth. These are used to esti
 4. To power the motors, plug in the included 5V Power Supply from the Starter Kit and connect it to the Power Hub.
 
 
-5. OPTIONAL: Use the included rivets and supports to secure the U2D2 and Power Hub to the side or bottom of the labyrinth. Additionally, secure the cables with zip ties and zip tie mounts, if desired.
+5. OPTIONAL: Use the included rivets and supports to secure the U2D2 and Power Hub to the side or bottom of the labyrinth. Additionally, secure the cables with zip ties and zip tie mounts, if desired. (TODO photo)
