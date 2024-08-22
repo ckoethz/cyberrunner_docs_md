@@ -7,7 +7,6 @@ Hardware Setup
 * 1x [BRIO Labyrinth](https://www.brio.us/en-US/products/games/labyrinth-game-63400000) (wooden version)
 
 ### XL330-M077-T Motors
-TODO - redo 3D printed parts file to the new ones
 * 2x [ROBOTIS Dynamixel XL330-M077-T](https://www.robotis.us/dynamixel-xl330-m077-t/)
 * 1x [ROBOTIS Dynamixel Starter Set](https://www.robotis.us/dynamixel-starter-set-us/) (select the correct US/INTL version)
 * 3x wires to extend cable to reach between both motors
@@ -18,6 +17,10 @@ TODO - redo 3D printed parts file to the new ones
 * 8x M2x16 B610 bolts to hold motor into the bracket
 * 4x wood screws to mount bracket to the labyrinth (size)
 * 4x plastic washers to space bracket from labyrinth
+
+!!! hint "To Do"
+
+    Update 3D printed parts file to the new ones, including photos!
 
 ### MX-12W Motors
 * 2x [ROBOTIS Dynamixel MX-12W Motors](https://www.robotis.us/dynamixel-mx-12w/)
@@ -30,7 +33,7 @@ TODO - redo 3D printed parts file to the new ones
 * 4x wood screws to mount bracket to the labyrinth (size)
 * 4x plastic washers to space bracket from labyrinth
 
-!!! disclaimer
+!!! note "Disclaimer"
 
     The Dynamixel MX-12W motors have been discontinued. 
 

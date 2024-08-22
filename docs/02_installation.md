@@ -22,7 +22,7 @@ Optional: To revert `pip` to the most updated version run the following.
 
         pip install --upgrade pip
 
-3. Install [ros2-humble](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html) by following the instructions on the linked page.
+3. Install [ros2-humble](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html) by following the instructions on the linked page. Afterward, complete the [CLI-Configuring-Environment](https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Configuring-ROS2-Environment.html) tutorial to source your setup files.
 
 4. Create your ROS2 workspace.
 
@@ -32,6 +32,10 @@ Optional: To revert `pip` to the most updated version run the following.
 
         git clone git@github.com:thomasbi1/cyberrunner.git
         cd ..
+
+!!! warning "Warning"
+        
+    This is the future plan, but it is not implemented yet. We currently have to clone multiple brio* repositories
 
 6. Install dependencies with rosdep.
 
