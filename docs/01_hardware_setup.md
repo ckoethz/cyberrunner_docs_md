@@ -15,7 +15,7 @@ Hardware Setup
 <!-- * 1x [BRIO Labyrinth](https://www.brio.us/en-US/products/games/labyrinth-game-63400000) (wooden version) -->
 * 1x <a href="https://www.brio.us/en-US/products/games/labyrinth-game-63400000" target="_blank">BRIO Labyrinth</a> (wooden version)
 
-### XL330-M077-T Motors (Option 1)
+### XL330-M077-T Motors 
 * 2x <a href="https://www.robotis.us/dynamixel-xl330-m077-t/" target="_blank">ROBOTIS Dynamixel XL330-M077-T</a>
 * 1x <a href="https://www.robotis.us/dynamixel-starter-set-us/" target="_blank">ROBOTIS Dynamixel Starter Set</a> (select the correct US/INTL version)
 * 3x wires to extend cable to reach between both motors
@@ -29,7 +29,7 @@ Hardware Setup
 
     Update 3D printed parts file to the new ones, including photos! -->
 
-### MX-12W Motors (Option 2)
+<!-- ### MX-12W Motors (Option 2)
 
 !!! warning "Disclaimer"
 
@@ -43,7 +43,7 @@ Hardware Setup
 * 8x M2x6 B610 bolts fix couplers to the motors (included with motors)
 * 8x M2x8 B610 bolts to hold motor into the bracket (included with motors)
 * 4x wood screws to mount bracket to the labyrinth (size)
-* 4x plastic washers to space bracket from labyrinth
+* 4x plastic washers to space bracket from labyrinth -->
 
 ### Camera
 * 1x <a href="https://www.e-consystems.com/industrial-cameras/ar0234-usb3-global-shutter-camera.asp#" target="_blank">See3CAM_24CUG USB3 Camera</a> (with enclosure)
@@ -64,7 +64,7 @@ Hardware Setup
 
 ## Building CyberRunner
 
-###  XL330-M077-T Motors (Option 1)
+###  XL330-M077-T Motors
 
 1. Carefully remove the two knobs from the labyrinth by using a flathead screwdriver and pressing the knobs away from the labyrinth board. Slightly heating the knobs with a heat gun or a hairdryer will facilitate this process.
 ![knobs](img/knobs.jpg)
@@ -81,7 +81,7 @@ Hardware Setup
 ![newnuts](img/newhousing.jpg)
 <br><br>
 
-###  MX-12W Motors (Option 2)
+<!-- ###  MX-12W Motors (Option 2)
 
 !!! warning "Disclaimer"
 
@@ -108,7 +108,7 @@ Hardware Setup
 <br><br>
 
 6. Press both motor couplers over the labyrinth shafts. You may need to slightly heat the couplers with a heat gun or hairdryer. Then, fix the motors to the labyrinth by using the M2.5x10 wood screws.
-![motorfix](img/motorfix.jpg)
+![motorfix](img/motorfix.jpg) -->
 
 
 ### Camera

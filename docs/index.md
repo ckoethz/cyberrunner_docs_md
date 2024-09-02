@@ -7,7 +7,7 @@ Welcome to the CyberRunner wiki! Here you'll find tutorials and other useful inf
 * Ubuntu 22.04
 * Python >= 3.10
 * MATLAB
-* GPU: min. 2x RTX 2080 Super
+* GPU: min. 1x RTX 2080 Super
 
 ## Tutorials
 
