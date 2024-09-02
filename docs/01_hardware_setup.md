@@ -10,17 +10,15 @@ Hardware Setup
 * 2x [ROBOTIS Dynamixel XL330-M077-T](https://www.robotis.us/dynamixel-xl330-m077-t/)
 * 1x [ROBOTIS Dynamixel Starter Set](https://www.robotis.us/dynamixel-starter-set-us/) (select the correct US/INTL version)
 * 3x wires to extend cable to reach between both motors
-* 2x [Motor couplings](https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/brio_coupler.stp) (to 3d print)
-    Note: These couplings are designed to break after being coupled to the motor. We recommend to print 2x extra.
-* 2x [Motor mounting brackets](https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/brio_motor_l.stp) (to 3d print)
+* 2x [Motor couplings](https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/motor_shaft_coupler.step) (to 3d print)
+    Note: These couplings may break after being coupled to the motor. We recommend to print 2x extra.
+* 2x [Motor mounting brackets](https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/motor_mounting_bracket.step) (to 3d print)
 * 8x M2x6 B610 bolts fix couplers to the motors (included with motors)
-* 8x M2x16 B610 bolts to hold motor into the bracket
-* 4x wood screws to mount bracket to the labyrinth (size)
-* 4x plastic washers to space bracket from labyrinth
+* 4x M3x10 bolts to mount bracket to the labyrinth
 
-!!! hint "To Do"
+<!-- !!! hint "To Do"
 
-    Update 3D printed parts file to the new ones, including photos!
+    Update 3D printed parts file to the new ones, including photos! -->
 
 ### MX-12W Motors
 * 2x [ROBOTIS Dynamixel MX-12W Motors](https://www.robotis.us/dynamixel-mx-12w/)
@@ -33,21 +31,23 @@ Hardware Setup
 * 4x wood screws to mount bracket to the labyrinth (size)
 * 4x plastic washers to space bracket from labyrinth
 
-!!! note "Disclaimer"
+!!! warning "Disclaimer"
 
     The Dynamixel MX-12W motors have been discontinued. 
 
 ### Camera
 * 1x [See3CAM_24CUG USB3 Camera](https://www.e-consystems.com/industrial-cameras/ar0234-usb3-global-shutter-camera.asp#) (with enclosure)
-* 1x Camera mounting plate (https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/camera_mounting_plate.STEP)
-* 4x M2x6 BN4719 bolts to attach the camera to the mounting plate
+* 1x [Camera mounting plate](https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/camera_mounting_plate.step)
+* 1x [Camera assembly bracket](https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/camera_assembly_mount.step)
+* 4x M2x8 bolts to attach the camera to the mounting plate
 * 2x 2020 T-slotted Aluminum with lengths of 40 cm and 20 cm
 * 7x L-brackets for T-slotted aluminum, size M5
 * 9x T-slot nuts, size M5
 * 9x T-slot bolts, size M5x8
 * 2x T-slot bolts to mount the camera, size M5x10
-* 3x wood screws to mount the camera scaffolding (size)
-* 3x washers for wood screws as appropriate. 
+* 4x M2.5x10 bolts to attach the assembly bracket to the labyrinth
+* 3x M3x8 bolts to mount the camera assembly to the bracket on the labyrinth
+* 3x M3 washers to sit between the bolts and the L-brackets that attach to the assembly bracket
 
 ### Miscellaneous
 * 8x [Dark blue circle labels](https://www.herma.co.uk/office-home/product/colour-dots-small-pack-1833/) (8mm diameter)
@@ -64,16 +64,12 @@ Hardware Setup
 ![newcouplers](img/newcouplings.jpg)
 <br><br>
 
-3. Press fit the motors into the 3D-printed housings. This step is expected to take some effort. (TODO update with photos)
+3. Drill pilot holes on the labyrinth for the motor housings. 
+<br><br>
+
+4. Connect the motors to the shaft. You may need to slightly heat the couplers with a heat gun or hairdryer. Slide the 3D-printed housings over the motors and secure the motor housings to the labyrinth with the M3x10 bolts.
 ![newnuts](img/newhousing.jpg)
 <br><br>
-
-4. Secure the motors into the housings with the M2x16 bolts.
-<br><br>
-
-5. Press both motor couplers over the labyrinth shafts. You may need to slightly heat the couplers with a heat gun or hairdryer. Then, fix the motors to the labyrinth by using the M2x10 wood screws.
-![newmotorfix](img/mounted_motor.jpg)
-
 
 ###  MX-12W Motors
 
@@ -111,20 +107,20 @@ The camera has to be have a stable view of the whole labyrinth. This can be done
 ![cameraparts](img/camera_scaffolding_parts.jpg)
 
 
-1. Mount the camera to the mounting plate and assmble the aluminum profiles as shown in the picture below.
-![cameramount](img/cameramount.jpg)
+1. Mount the camera to the mounting plate with the M2x8 bolts and assmble the aluminum profiles as shown in the picture below. Note that the bottom of the 40 cm T-slotted aluminum must be tapped to fit the M5 bolt.
+![cameramount](img/cameramountnew.jpg)
 <br><br>
 
-2. Mount the assembly to the labyrinth board using wood screws and appropriate washers. If done correctly, the camera should be centered over the labyrinth board. Additionally, the distance between the bottom of the lens and the labyrinth playing surface should be approximately 25cm.
+2. Attach the camera assembly bracket to the labyrinth with the M2.5x10 bolts. Make sure it is centered! Note that the shaft for the knob on the opposite end is not centered with respect to the playing area.
+![camerabracket](img/camera_bracket.jpg)
+<br><br>
 
-!!! Warning
+3. Mount the camera assembly to the labyrinth board using the M3x8 bolts and M3 washers. If done correctly, the camera should be centered over the labyrinth board. Additionally, the distance between the bottom of the lens and the labyrinth playing surface should be approximately 25cm.
+![camerafix](img/camerafixnew.jpg) 
 
-    Ensure that the wood screws do not interfere with the motion of the labyrinth playing surface!(TODO photo - also update photo with correct side of labyrinth)
+<!-- !!! Warning
 
-![camerafix](img/camerafix.jpg) 
-(TODO update photo to place the camera onto the correct side.)
-
-
+    Ensure that the wood screws do not interfere with the motion of the labyrinth playing surface!(TODO photo - also update photo with correct side of labyrinth) -->
 
 ### Calibration Markers
 
@@ -157,4 +153,5 @@ In the next step, we place blue markers on the labyrinth. These are used to esti
 4. To power the motors, plug in the included 5V Power Supply from the Starter Kit and connect it to the Power Hub.
 
 
-5. OPTIONAL: Use the included rivets and supports to secure the U2D2 and Power Hub to the side or bottom of the labyrinth. Additionally, secure the cables with zip ties and zip tie mounts, if desired. (TODO photo)
+5. OPTIONAL: Use the included rivets and supports to secure the U2D2 and Power Hub to the side or bottom of the labyrinth. Additionally, secure the cables with zip ties and zip tie mounts, if desired. 
+<!-- (TODO photo) -->
