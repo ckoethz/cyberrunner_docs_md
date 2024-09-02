@@ -8,6 +8,15 @@ Reload Mechanism
 
 > Below are the instructions to add an automatic reload mechanism to the CyberRunner robot. The reload mechanism uses a light sensor to detect when the marble is ready to be reset to the beginning. A solenoid then launches the ball through a tube path back to the start.
 
+## Suggested Tools
+* Allen Wrenches - (sizes)
+* Soldering Iron
+* Wire clippers and strippers
+* Hot glue gun
+* Heat gun or hair dryer
+* Pliers
+* Flathead
+
 ## List of Purchased Components
 * 1x <a href="https://www.adafruit.com/product/413" target="_blank">Adafruit Large Push-Pull Solenoid</a> 
 * 1x <a href="https://store.arduino.cc/products/arduino-nano" target="_blank">Arduino Nano</a>
@@ -35,15 +44,6 @@ Reload Mechanism
 * 1x <a href="https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/reload/reload_7_8_mount_9.step" target="_blank">Corridor Mount between 7 and 8 - Part 9</a> 
 * 1x <a href="https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/reload/reload_end_holder.step" target="_blank">Corridor End Mount</a> 
 * 1x <a href="https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/reload/reload_electronics_mount.step" target="_blank">Electronics Holder</a> 
-
-### Suggested Tools
-* Allen Wrenches - (sizes)
-* Soldering Iron
-* Wire clippers and strippers
-* Hot glue gun
-* Heat gun or hair dryer
-* Pliers
-* Flathead
 
 ## Building the Reload Mechanism
 
