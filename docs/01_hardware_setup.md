@@ -4,7 +4,7 @@ Hardware Setup
 ## List of Components
 
 ### Tools
-* 3D-Printer access and PLC filament
+* 3D-Printer access and PLC filament (Tested with Bambu X1E)
 * Allen keys: 3, 2.5, 2, and 1.27mm
 * Handheld drill: 2.2, 2.7 mm bits
 * Soldering iron
@@ -12,15 +12,16 @@ Hardware Setup
 * Pliers
 
 ### Labyrinth
-* 1x [BRIO Labyrinth](https://www.brio.us/en-US/products/games/labyrinth-game-63400000) (wooden version)
+<!-- * 1x [BRIO Labyrinth](https://www.brio.us/en-US/products/games/labyrinth-game-63400000) (wooden version) -->
+* 1x <a href="https://www.brio.us/en-US/products/games/labyrinth-game-63400000" target="_blank">BRIO Labyrinth</a> (wooden version)
 
-### XL330-M077-T Motors
-* 2x [ROBOTIS Dynamixel XL330-M077-T](https://www.robotis.us/dynamixel-xl330-m077-t/)
-* 1x [ROBOTIS Dynamixel Starter Set](https://www.robotis.us/dynamixel-starter-set-us/) (select the correct US/INTL version)
+### XL330-M077-T Motors (Option 1)
+* 2x <a href="https://www.robotis.us/dynamixel-xl330-m077-t/" target="_blank">ROBOTIS Dynamixel XL330-M077-T</a>
+* 1x <a href="https://www.robotis.us/dynamixel-starter-set-us/" target="_blank">ROBOTIS Dynamixel Starter Set</a> (select the correct US/INTL version)
 * 3x wires to extend cable to reach between both motors
-* 2x [Motor couplings](https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/motor_shaft_coupler.step) (to 3d print)
+* 2x <a href="https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/motor_shaft_coupler.step" target="_blank">Motor couplings</a> (to 3d print)
     Note: These couplings may break after being coupled to the motor. We recommend to print 2x extra.
-* 2x [Motor mounting brackets](https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/motor_mounting_bracket.step) (to 3d print)
+* 2x <a href="https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/motor_mounting_bracket.step" target="_blank">Motor mounting brackets</a> (to 3d print)
 * 8x M2x6 B610 bolts fix couplers to the motors (included with motors)
 * 4x M3x10 bolts to mount bracket to the labyrinth
 
@@ -28,25 +29,26 @@ Hardware Setup
 
     Update 3D printed parts file to the new ones, including photos! -->
 
-### MX-12W Motors
-* 2x [ROBOTIS Dynamixel MX-12W Motors](https://www.robotis.us/dynamixel-mx-12w/)
-* 1x [ROBOTIS Dynamixel Starter Set](https://www.robotis.us/dynamixel-starter-set-us/) (select the correct US/INTL version)
-* 3x wires to extend cable to reach between both motors
-* 2x [Motor couplings](https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/brio_coupler.stp) (to 3d print)
-* 2x [Motor mounting brackets](https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/brio_motor_l.stp) (to 3d print)
-* 8x M2x6 B610 bolts fix couplers to the motors (included with motors)
-* 8x M2x8 B610 bolts to hold motor into the bracket (included with motors)
-* 4x wood screws to mount bracket to the labyrinth (size)
-* 4x plastic washers to space bracket from labyrinth
+### MX-12W Motors (Option 2)
 
 !!! warning "Disclaimer"
 
     The Dynamixel MX-12W motors have been discontinued. 
 
+* 2x <a href="https://www.robotis.us/dynamixel-mx-12w/" target="_blank">ROBOTIS Dynamixel MX-12W Motors</a>
+* 1x <a href="https://www.robotis.us/dynamixel-starter-set-us/" target="_blank">ROBOTIS Dynamixel Starter Set</a> (select the correct US/INTL version)
+* 3x wires to extend cable to reach between both motors
+* 2x <a href="https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/brio_coupler.stp" target="_blank">Motor couplings</a> (to 3d print)
+* 2x <a href="https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/brio_motor_l.stp" target="_blank">Motor mounting brackets</a> (to 3d print)
+* 8x M2x6 B610 bolts fix couplers to the motors (included with motors)
+* 8x M2x8 B610 bolts to hold motor into the bracket (included with motors)
+* 4x wood screws to mount bracket to the labyrinth (size)
+* 4x plastic washers to space bracket from labyrinth
+
 ### Camera
-* 1x [See3CAM_24CUG USB3 Camera](https://www.e-consystems.com/industrial-cameras/ar0234-usb3-global-shutter-camera.asp#) (with enclosure)
-* 1x [Camera mounting plate](https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/camera_mounting_plate.step)
-* 1x [Camera assembly bracket](https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/camera_assembly_mount.step)
+* 1x <a href="https://www.e-consystems.com/industrial-cameras/ar0234-usb3-global-shutter-camera.asp#" target="_blank">See3CAM_24CUG USB3 Camera</a> (with enclosure)
+* 1x <a href="https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/camera_mounting_plate.STEP" target="_blank">Camera mounting plate</a> 
+* 1x <a href="https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/camera_assembly_mount.step" target="_blank">Camera assembly bracket</a>
 * 4x M2x8 bolts to attach the camera to the mounting plate
 * 2x 2020 T-slotted Aluminum with lengths of 40 cm and 20 cm
 * 7x L-brackets for T-slotted aluminum, size M5
@@ -58,7 +60,7 @@ Hardware Setup
 * 3x M3 washers to sit between the bolts and the L-brackets that attach to the assembly bracket
 
 ### Miscellaneous
-* 8x [Dark blue circle labels](https://www.herma.co.uk/office-home/product/colour-dots-small-pack-1833/) (8mm diameter)
+* 8x <a href="https://www.herma.co.uk/office-home/product/colour-dots-small-pack-1833/" target="_blank">Dark blue circle labels</a> (8mm diameter)
 
 ## Building CyberRunner
 
@@ -81,7 +83,7 @@ Hardware Setup
 
 ###  MX-12W Motors
 
-!!! disclaimer
+!!! warning "Disclaimer"
 
     The Dynamixel MX-12W motors have been discontinued. Instructions for the Dynamizel XL330-M077-T motors are above.
 
