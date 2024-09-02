@@ -64,7 +64,7 @@ Hardware Setup
 
 ## Building CyberRunner
 
-###  XL330-M077-T Motors
+###  XL330-M077-T Motors (Option 1)
 
 1. Carefully remove the two knobs from the labyrinth by using a flathead screwdriver and pressing the knobs away from the labyrinth board. Slightly heating the knobs with a heat gun or a hairdryer will facilitate this process.
 ![knobs](img/knobs.jpg)
@@ -81,7 +81,7 @@ Hardware Setup
 ![newnuts](img/newhousing.jpg)
 <br><br>
 
-###  MX-12W Motors
+###  MX-12W Motors (Option 2)
 
 !!! warning "Disclaimer"
 
@@ -151,7 +151,7 @@ In the next step, we place blue markers on the labyrinth. These are used to esti
 ![extendedcable](img/extended_cable.jpg)
 <br><br>
 
-2. Connect the motors together with the extended ROBOT X3P cable. Connect the motor opposite of the camera scaffolding to the U2D2 with the ROBOT X3P cable from the Starter Kit. Connect the U2D2 to the Power Hub with another ROBOT X3P cable. See the [U2D2 Power Hub Manual](https://emanual.robotis.com/docs/en/parts/interface/u2d2_power_hub/) for more information.
+2. Connect the motors together with the extended ROBOT X3P cable. Connect the motor opposite of the camera scaffolding to the U2D2 with the ROBOT X3P cable from the Starter Kit. Connect the U2D2 to the Power Hub with another ROBOT X3P cable. See the <a href="https://emanual.robotis.com/docs/en/parts/interface/u2d2_power_hub/" target="_blank">U2D2 Power Hub Manual</a> for more information.
 
 
 3. The U2D2 communicates the computed actions from the computer to the motors. These can now be connected with the USB Micro-B cable included in the Starter Kit.
