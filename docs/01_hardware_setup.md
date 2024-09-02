@@ -4,10 +4,12 @@ Hardware Setup
 ## List of Components
 
 ### Tools
-* Allen wrenches: 3, 2.5, 2, and 1.27mm
-* Handheld drill: 2.2, 2.7 mm
+* 3D-Printer access and PLC filament
+* Allen keys: 3, 2.5, 2, and 1.27mm
+* Handheld drill: 2.2, 2.7 mm bits
 * Soldering iron
 * Heat gun or hair dryer
+* Pliers
 
 ### Labyrinth
 * 1x [BRIO Labyrinth](https://www.brio.us/en-US/products/games/labyrinth-game-63400000) (wooden version)
