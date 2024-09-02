@@ -28,6 +28,7 @@ Reload Mechanism
 * <a href="https://www.adafruit.com/product/793" target="_blank">F/F Jumper Cables</a> (Example)
 * 9x M3x8 bolts 
 * 6x M3x12 bolts
+* Optional: Barrel jack adapter to power the solenoid
 * Heat shrink
 
 ## List of 3D-Printed Components
@@ -78,7 +79,7 @@ Reload Mechanism
 ![reload_corridor](img/reload_corridor_numbered.jpg)
 <br><br>
 
-8. Connect the cables for the light sensor, solenoid, arduino, and relay as in the wiring diagram below.
+8. Connect the cables for the light sensor, solenoid, arduino, and relay as in the wiring diagram below. The solenoid can be connected to the 24V power supply with a barrel jack connector if desired.
 ![reload_wiring](img/reload_wiring.jpg)
 <br><br>
 
@@ -88,6 +89,3 @@ Reload Mechanism
 ## Configuring the Electronics
 
 1. Plug in the arduino to your PC that will run the controller. Upload <a href="https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/main_high_low.ino" target="_blank">this script</a> to the Arduino Nano. Note that you will need the BH1750 library to run the code.
-
-## Reloading with the CyberRunner
-(This regards connections to the computer/usb hub)
