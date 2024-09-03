@@ -9,13 +9,12 @@ Reload Mechanism
 > Below are the instructions to add an automatic reload mechanism to the CyberRunner robot. The reload mechanism uses a light sensor to detect when the marble is ready to be reset to the beginning. A solenoid then launches the ball through a tube path back to the start.
 
 ## Suggested Tools
-* Allen Wrenches - (sizes)
+* Tool kit with allen wrenches and screwdrivers
 * Soldering Iron
 * Wire clippers and strippers
 * Hot glue gun
 * Heat gun or hair dryer
 * Pliers
-* Flathead
 
 ## List of Purchased Components
 * 1x <a href="https://www.adafruit.com/product/413" target="_blank">Adafruit Large Push-Pull Solenoid</a> 
@@ -28,12 +27,12 @@ Reload Mechanism
 * <a href="https://www.adafruit.com/product/793" target="_blank">F/F Jumper Cables</a> (Example)
 * 9x M3x8 bolts 
 * 6x M3x12 bolts
-* Optional: Barrel jack adapter to power the solenoid
 * Heat shrink
+* Optional: Barrel jack adapter to power the solenoid
 
 ## List of 3D-Printed Components
-* 1x <a href="https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/reload/reload_leg_output.step" target="_blank">Marble Output Leg</a> 
-* 3x <a href="https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/reload/reload_leg.step" target="_blank">Remaining Labyrinth Legs</a> 
+* 4x <a href="https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/reload/reload_leg.step" target="_blank">Labyrinth Legs</a> 
+* 1x <a href="https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/reload/reload_solenoid_push_head.step" target="_blank">Solenoid Push Head Cover</a>
 * 1x <a href="https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/reload/solenoid_sensor_mount.step" target="_blank">Reload Marble Tray - Part 1</a> 
 * 1x <a href="https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/reload/reload_sensor_cover_2.step" target="_blank">Sensor Cover - Part 2</a> 
 * 1x <a href="https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/reload/reload_corridor_3.step" target="_blank">Corridor after Solenoid - Part 3</a> 
@@ -65,7 +64,7 @@ Reload Mechanism
 4. Insert the LED into the designated hole in the reloading mechanism marble tray. Carefully bend the lead ends to follow the corridor such that they do not touch each other. Hot glue the components in place.<!-- ![knobs](img/marble_tray_removal.jpg) -->
 <br><br>
 
-5. Use 4x M3x12 bolts to secure the solenoid to the reloading marble tray. Ensure that the piston is facing toward the interior of the marble tray so it can launch the marble.<!-- ![knobs](img/marble_tray_removal.jpg) -->
+5. Put the cap on the piston of the solenoid and use 4x M3x12 bolts to secure the solenoid to the reloading marble tray. Ensure that the piston is facing toward the interior of the marble tray so it can launch the marble.<!-- ![knobs](img/marble_tray_removal.jpg) -->
 <br><br>
 
 6. Secure the reload mechanism assembly to the labyrinth with two M3x8 bolts in the lower right holes on both connection points. <!-- ![knobs](img/marble_tray_removal.jpg) -->
@@ -79,7 +78,7 @@ Reload Mechanism
 ![reload_corridor](img/reload_corridor_numbered.jpg)
 <br><br>
 
-8. Connect the cables for the light sensor, solenoid, arduino, and relay as in the wiring diagram below. The solenoid can be connected to the 24V power supply with a barrel jack connector if desired.
+8. Connect the cables for the light sensor, solenoid, arduino, and relay as in the wiring diagram below. The solenoid and relay can be connected to the 24V power supply with a barrel jack connector if desired.
 ![reload_wiring](img/reload_wiring.jpg)
 <br><br>
 
@@ -88,4 +87,4 @@ Reload Mechanism
 
 ## Configuring the Electronics
 
-1. Plug in the arduino to your PC that will run the controller. Upload <a href="https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/main_high_low.ino" target="_blank">this script</a> to the Arduino Nano. Note that you will need the BH1750 library to run the code.
+1. Plug in the arduino to your PC that will run the controller. Upload <a href="https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/reload/arduino/main_high_low.ino" target="_blank">this script</a> to the Arduino Nano. Note that you will need the BH1750 library to run the code.

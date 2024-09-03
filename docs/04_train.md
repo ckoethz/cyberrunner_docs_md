@@ -1,6 +1,9 @@
 Train
 =====
 
+!!! warning "Disclaimer"
+    This page is not up-to-date. It will be updated soon with the latest procedure. Stay tuned!
+
 1. Open four terminal windows. For each, navigate to the CyberRunner workspace and source the workspace.
 
         cd cyberrunner_ws

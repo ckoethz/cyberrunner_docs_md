@@ -5,8 +5,7 @@ Hardware Setup
 
 ### Tools
 * 3D-Printer access and PLC filament (Tested with Bambu X1E)
-* Allen keys: 3, 2.5, 2, and 1.27mm
-* Handheld drill: 2.2, 2.7 mm bits
+* Tool Kit with allen keys and a handheld drill
 * Soldering iron
 * Heat gun or hair dryer
 * Pliers
@@ -19,11 +18,12 @@ Hardware Setup
 * 2x <a href="https://www.robotis.us/dynamixel-xl330-m077-t/" target="_blank">ROBOTIS Dynamixel XL330-M077-T</a>
 * 1x <a href="https://www.robotis.us/dynamixel-starter-set-us/" target="_blank">ROBOTIS Dynamixel Starter Set</a> (select the correct US/INTL version)
 * 3x wires to extend cable to reach between both motors
-* 2x <a href="https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/motor_shaft_coupler.step" target="_blank">Motor couplings</a> (to 3d print)
+* 2x <a href="https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/motors/motor_shaft_coupler.step" target="_blank">Motor couplings</a> (to 3d print)
     Note: These couplings may break after being coupled to the motor. We recommend to print 2x extra.
-* 2x <a href="https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/motor_mounting_bracket.step" target="_blank">Motor mounting brackets</a> (to 3d print)
+* 2x <a href="https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/motors/motor_mounting_bracket.step" target="_blank">Motor mounting brackets</a> (to 3d print)
 * 8x M2x6 B610 bolts fix couplers to the motors (included with motors)
 * 4x M3x10 bolts to mount bracket to the labyrinth
+* Heat shrink
 
 <!-- !!! hint "To Do"
 
@@ -47,8 +47,8 @@ Hardware Setup
 
 ### Camera
 * 1x <a href="https://www.e-consystems.com/industrial-cameras/ar0234-usb3-global-shutter-camera.asp#" target="_blank">See3CAM_24CUG USB3 Camera</a> (with enclosure)
-* 1x <a href="https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/camera_mounting_plate.STEP" target="_blank">Camera mounting plate</a> 
-* 1x <a href="https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/camera_assembly_mount.step" target="_blank">Camera assembly bracket</a>
+* 1x <a href="https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/camera/camera_mounting_plate.STEP" target="_blank">Camera mounting plate</a> 
+* 1x <a href="https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/camera/camera_assembly_mount.step" target="_blank">Camera assembly bracket</a>
 * 4x M2x8 bolts to attach the camera to the mounting plate
 * 2x 2020 T-slotted Aluminum with lengths of 40 cm and 20 cm
 * 7x L-brackets for T-slotted aluminum, size M5

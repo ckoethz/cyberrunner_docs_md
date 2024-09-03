@@ -35,7 +35,7 @@ Optional: To revert `pip` to the most updated version run the following.
 
 !!! warning "Warning"
         
-    This is the future plan, but it is not implemented yet. We currently have to clone multiple brio* repositories
+    This is the future plan, but it is not implemented yet. 
 
 6. Install dependencies with rosdep.
 

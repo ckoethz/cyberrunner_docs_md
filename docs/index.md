@@ -15,13 +15,13 @@ Welcome to the CyberRunner wiki! Here you'll find tutorials and other useful inf
 * [Installation](02_installation.md): Install all necessary dependencies and the CyberRunner software stack.
 * [Initial Configuration](03_initial_config.md): Calibrate the camera and configure the motors.
 * [Train](04_train.md): Let CyberRunner learn to play the labyrinth game.
-* [Troubleshooting](05_troubleshooting.md): Fix common issues.
-* [Reload Mechanism](06_reload.md): Add an automatic reload mechanism to your CyberRunner robot.
+* [Reload Mechanism](05_reload.md): Add an automatic reload mechanism to your CyberRunner robot.
+* [Troubleshooting](06_troubleshooting.md): Fix common issues.
 
-!!! note
+!!! note "Note"
 
     This project is under active development.
 
-!!! Potential addition
+<!-- !!! Potential addition
 
-    Video tutorials? This applies to software and configuration as well
+    Video tutorials? This applies to software and configuration as well -->
