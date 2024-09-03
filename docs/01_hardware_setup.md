@@ -59,6 +59,9 @@ Hardware Setup
 * 3x M3x8 bolts to mount the camera assembly to the bracket on the labyrinth
 * 3x M3 washers to sit between the bolts and the L-brackets that attach to the assembly bracket
 
+!!! note "Information"
+    One of the ends of the 40 cm T-slotted aluminum parts needs to be tapped for an M5 bolt. 
+
 ### Miscellaneous
 * 8x <a href="https://www.herma.co.uk/office-home/product/colour-dots-small-pack-1833/" target="_blank">Dark blue circle labels</a> (8mm diameter)
 
