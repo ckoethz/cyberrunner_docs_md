@@ -8,7 +8,7 @@ Reload Mechanism
 
 > Below are the instructions to add an automatic reload mechanism to the CyberRunner robot. The reload mechanism uses a light sensor to detect when the marble is ready to be reset to the beginning. A solenoid then launches the ball through a tube path back to the start.
 
-## Suggested Tools
+## Tools
 * Toolkit with Allen wrenches and screwdrivers
 * Soldering iron
 * Wire clippers and strippers
