@@ -5,7 +5,8 @@ Hardware Setup
 
 ### Tools
 * 3D-Printer access and PLC filament (Tested with Bambu X1E)
-* Tool Kit with allen keys and a handheld drill
+* Tool Kit with Allen wrenches and a handheld drill
+* Wire cutters and strippers
 * Soldering iron
 * Heat gun or hair dryer
 * Pliers

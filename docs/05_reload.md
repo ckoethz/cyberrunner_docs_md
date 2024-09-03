@@ -9,8 +9,8 @@ Reload Mechanism
 > Below are the instructions to add an automatic reload mechanism to the CyberRunner robot. The reload mechanism uses a light sensor to detect when the marble is ready to be reset to the beginning. A solenoid then launches the ball through a tube path back to the start.
 
 ## Suggested Tools
-* Tool kit with allen wrenches and screwdrivers
-* Soldering Iron
+* Toolkit with Allen wrenches and screwdrivers
+* Soldering iron
 * Wire clippers and strippers
 * Hot glue gun
 * Heat gun or hair dryer
@@ -53,38 +53,42 @@ Reload Mechanism
 
 2. Install the legs on each corner of the labyrinth.
 
-3. Start assembling the new marble tray which houses the LED and light sensor to detect the marble and the solenoid to launch the marble. We will first start with the light sensor and LED wiring. 
-    - Solder the pins onto the light sensor so that they are on the other side of the light sensor. (WARNING: IT IS IN THE OPPOSITE DIRECTION IN THE PHOTO)
-    - Solder a 330 Ohm resistor to a (shortened!) power lead of a white LED. Further solder this to a female jumper cable which will connect to obtain power from the light sensor.
-    - Create a grounding cable that splits from a female jumper cable to an end to solder to the LED and another female end to connect to the light sensor. This will ensure that the LED, light sensor, and Arduino are on the same ground. Remember to shorten the LED lead before soldering the wire to it.
-    - Push the light sensor into the designated spot on the reloading marble tray across from the LED. Install part 2 - the sensor cover on top and keep track of which pin is which. Plug in the power and ground pins from the LED.
+3. Start assembling the new marble tray, which houses the LED, light sensor, and solenoid. Begin with the light sensor and LED wiring. 
+    - Solder the pins onto the light sensor PCB facing away from the light sensor. **(Note: This is opposite to the direction shown in the photo)**
+    - Solder a 330 Ohm resistor to a (shortened) power lead of the white LED. Solder the other end of the resistor to a female jumper cable. This will connect to the light sensor PCB for power.
+    - Create a grounding cable that splits from the (shortened) ground lead of the LED to two female jumper cables. These cables will connect to ground pins on the light sensor PCB and the Arduino.
 ![light_sensor](img/reload_light_and_sensor_assembly.jpg)
 <br><br>
 
-4. Insert the LED into the designated hole in the reloading mechanism marble tray. Carefully bend the lead ends to follow the corridor such that they do not touch each other. Hot glue the components in place.<!-- ![knobs](img/marble_tray_removal.jpg) -->
+4. Insert the LED into the designated hole in the printed marble tray. Bend its wires carefully along the corridor so they do not touch each other. Hot glue the wires and the LED in place.<!-- ![knobs](img/marble_tray_removal.jpg) -->
 <br><br>
 
-5. Put the cap on the piston of the solenoid and use 4x M3x12 bolts to secure the solenoid to the reloading marble tray. Ensure that the piston is facing toward the interior of the marble tray so it can launch the marble.<!-- ![knobs](img/marble_tray_removal.jpg) -->
+5. Insert the light sensor into its designated spot on the printed marble tray opposite the LED. Install the sensor cover (Part 2).<!-- ![knobs](img/marble_tray_removal.jpg) -->
 <br><br>
 
-6. Secure the reload mechanism assembly to the labyrinth with two M3x8 bolts in the lower right holes on both connection points. <!-- ![knobs](img/marble_tray_removal.jpg) -->
+6. Put the printed cap on the solenoid piston. Attach the solenoid to the printed marble tray using four M3x12 bolts. Ensure the piston faces inward to launch the marble.<!-- ![knobs](img/marble_tray_removal.jpg) -->
 <br><br>
 
-7. The corridor for the marble back to the start can now be constructed.  Use the numbers 3D printed onto each part to follow along.
-    - Part 3 can be press fit into the top of the reloading marble tray and secured with 1x 3Mx8 bolt on the upper left hole of the square portion of the part. This can be pressed together with Part 4. 
-    - Connect corridor Parts 4 and 5 with mount Part 6. This mount is secured to the top of the labyrinth with 2x 3Mx8 bolts. 
-    - Press fit together corridor parts 5 and 7. Similarly to before, connect corridor Parts 7 and 8 with mount Part 9, which is also secured to the top of the labyrinth with 2x 3Mx8 bolts. 
-    - Press fit the end mount to Part 8 and bolt it to the top of the labyrinth above where the maze starts. 
+7. Secure the reload mechanism assembly to the labyrinth with two M3x8 bolts in the lower right holes of the connection points. <!-- ![knobs](img/marble_tray_removal.jpg) -->
+<br><br>
+
+8. Assemble the marble return corridor using the numbered parts:
+    - Press-fit Part 3 into the printed marble tray and secure it to the labyrinth with one 3Mx8 bolt. Attach Part 4 to Part 3. 
+    - Connect Parts 4 and 5 using Part 6, securing it to the top of the labyrinth with two 3Mx8 bolts. 
+    - Press-fit Part 7 to Part 5. Connect Part 7 and Part 8 with Part 9. Secure Part 9 to the top of the labyrinth with two 3Mx8 bolts. 
+    - Attach the end mount to Part 8 and secure it above the maze start with two 3Mx8 bolts. 
 ![reload_corridor](img/reload_corridor_numbered.jpg)
 <br><br>
 
-8. Connect the cables for the light sensor, solenoid, arduino, and relay as in the wiring diagram below. The solenoid and relay can be connected to the 24V power supply with a barrel jack connector if desired.
+9. Connect the cables for the light sensor, solenoid, Arduino, and relay according to the wiring diagram. Optionally, connect the solenoid and relay to the 24V power supply using a barrel jack connector in the electronics housing. 
 ![reload_wiring](img/reload_wiring.jpg)
 <br><br>
 
-9. Secure the relay and arduino in the electronics housing and secure it to the labyrinth with 2x M3x12 bolts.
+10. Secure the relay and Arduino in the electronics housing. Attach it to the labyrinth with two M3x12 bolts.
 <br><br>
 
 ## Configuring the Electronics
 
-1. Plug in the arduino to your PC that will run the controller. Upload <a href="https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/reload/arduino/main_high_low.ino" target="_blank">this script</a> to the Arduino Nano. Note that you will need the BH1750 library to run the code.
+1. Plug in the Arduino to your PC and upload <a href="https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/reload/arduino/main_high_low.ino" target="_blank">this script</a> to the Arduino Nano. Ensure that the BH1750 library is installed.
+
+2. If the Arduino is powered, you should hear the relay respond when (1) the LED is covered in the marble tray and (2) every minute without sensor detection. The latter response attempts to jiggle out stuck marbles from the labyrinth. 
