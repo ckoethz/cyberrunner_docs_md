@@ -5,7 +5,7 @@ Hardware Setup
 
 ### Tools
 * 3D-Printer access and PLC filament (Tested with Bambu X1E)
-* Tool Kit with Allen wrenches and a handheld drill
+* Toolkit with Allen wrenches, screwdrivers, and a handheld drill
 * Wire cutters and strippers
 * Soldering iron
 * Heat gun or hair dryer
@@ -70,18 +70,18 @@ Hardware Setup
 
 ###  XL330-M077-T Motors
 
-1. Carefully remove the two knobs from the labyrinth by using a flathead screwdriver and pressing the knobs away from the labyrinth board. Slightly heating the knobs with a heat gun or a hairdryer will facilitate this process.
+1. Using a flathead screwdriver, carefully pry the two knobs off of the labyrinth. Applying heat to the knobs with a heat gun or hair dryer will facilitate this process.
 ![knobs](img/knobs.jpg)
 <br><br>
 
-2. Mount the motor couplers to the front of the motors using the M2x6 bolts included with the motors.
+2. Secure the motor couplers to the motors using the provided M2x6 bolts.
 ![newcouplers](img/newcouplings.jpg)
 <br><br>
 
-3. Drill pilot holes on the labyrinth for the motor housings. 
+3. Drill pilot holes on the labyrinth to prepare for the installation of the motor housings. 
 <br><br>
 
-4. Connect the motors to the shaft. You may need to slightly heat the couplers with a heat gun or hairdryer. Slide the 3D-printed housings over the motors and secure the motor housings to the labyrinth with the M3x10 bolts.
+4. Connect the motors to the labyrinth shafts. If necessary, slightly heat the couplers with a heat gun or hair dryer to assist with the fitting. Slide the 3D-printed housings over the motors and secure the motor housings to the labyrinth with the M3x10 bolts.
 ![newnuts](img/newhousing.jpg)
 <br><br>
 
@@ -117,19 +117,19 @@ Hardware Setup
 
 ### Camera
 
-The camera has to be have a stable view of the whole labyrinth. This can be done with a scaffolding made with 2020 T-slotted Aluminum and a custom camera mounting plate as described below.
+The camera has to be have a stable view of the whole labyrinth. This can be done with a scaffolding made with 2020 T-slotted Aluminum and a 3D-Printed camera mounting plate as described below.
 ![cameraparts](img/camera_scaffolding_parts.jpg)
 
 
-1. Mount the camera to the mounting plate with the M2x8 bolts and assmble the aluminum profiles as shown in the picture below. Note that the bottom of the 40 cm T-slotted aluminum must be tapped to fit the M5 bolt.
+1. Tap one end of the 40 cm T-slotted aluminum to fit a M5 bolt. Mount the camera to the mounting plate with four M2x8 bolts and assmble the aluminum profiles as shown in the picture.  
 ![cameramount](img/cameramountnew.jpg)
 <br><br>
 
-2. Attach the camera assembly bracket to the labyrinth with the M2.5x10 bolts. Make sure it is centered! Note that the shaft for the knob on the opposite end is not centered with respect to the playing area.
+2. Secure the camera assembly bracket to the labyrinth using four M2.5x10 bolts. Ensure that the bracket is centered. Note that the shaft for the knob on the opposite end is not centered with respect to the playing area.
 ![camerabracket](img/camera_bracket.jpg)
 <br><br>
 
-3. Mount the camera assembly to the labyrinth board using the M3x8 bolts and M3 washers. If done correctly, the camera should be centered over the labyrinth board. Additionally, the distance between the bottom of the lens and the labyrinth playing surface should be approximately 25cm.
+3. Mount the camera assembly to the labyrinth board using three M3x8 bolts and M3 washers. Adjust the height of the camera so the distance between the bottom of the lens and the labyrinth playing area is approximately 25cm.
 ![camerafix](img/camerafixnew.jpg) 
 
 <!-- !!! Warning
@@ -138,11 +138,11 @@ The camera has to be have a stable view of the whole labyrinth. This can be done
 
 ### Calibration Markers
 
-In the next step, we place blue markers on the labyrinth. These are used to estimate the inclination angles of the labyrinth playing surface.
+Next, blue markers are placed on the labyrinth to estimate the inclination angles of the labyrinth playing surface.
 
-1. Place the first four blue labels on the centers of the corners of the labyrinth playing surface. The diameter of the labels and the width of the edge are both 8mm, and thus the labels should align with the outer edges. 
+1. Place the first four blue labels on the center of each corners of the labyrinth playing surface. The labels should align with the outer edges since the diameter of the labels and the width of the edge are both 8mm. 
 <br><br>
-2. The next four blue labels are for the outer perimeter of the labyrinth. The centers of the labels should be 5cm from the edge of the game along the short sides of the labyrinth. See the image below. 
+2. Place the next four blue labels on the outer perimeter of the labyrinth. The centers of each label should be 5cm from the edge of the game along the short sides of the labyrinth, as shown in the image below. 
 <br><br>
 ![markers](img/markers.jpg)
 
@@ -151,21 +151,21 @@ In the next step, we place blue markers on the labyrinth. These are used to esti
 ![allcables](img/all_cabling.jpg)
 
 
-1. Clip the ends of 2 ROBOT X3P cables. Place extra wire between the corresponding pins and solder the connections. Apply heat shrink over the connections for protection.
+1. Clip the ends of two ROBOT X3P cables. Add extra wire between the corresponding pins and solder the connections. Cover the connections with heat shrink.
 ![extendedcable](img/extended_cable.jpg)
 <br><br>
 
-2. Connect the motors together with the extended ROBOT X3P cable. Connect the motor opposite of the camera scaffolding to the U2D2 with the ROBOT X3P cable from the Starter Kit. Connect the U2D2 to the Power Hub with another ROBOT X3P cable. See the <a href="https://emanual.robotis.com/docs/en/parts/interface/u2d2_power_hub/" target="_blank">U2D2 Power Hub Manual</a> for more information.
+2. Use the extended ROBOT X3P cable to connect the motors together. Connect the motor opposite the camera scaffolding to the U2D2 with the ROBOT X3P cable from the Starter Kit. Connect the U2D2 to the Power Hub with another ROBOT X3P cable. See the <a href="https://emanual.robotis.com/docs/en/parts/interface/u2d2_power_hub/" target="_blank">U2D2 Power Hub Manual</a> for more information.
 
 
-3. The U2D2 communicates the computed actions from the computer to the motors. These can now be connected with the USB Micro-B cable included in the Starter Kit.
+3. The U2D2 communicates the computed actions from the computer to the motors. Connect it to the computer with the USB Micro-B cable provided in the Starter Kit.
 
 
-4. Connect the included USB cable with the camera to the computer.
+4. Connect the camera to the computer with the included USB cable.
 
 
-4. To power the motors, plug in the included 5V Power Supply from the Starter Kit and connect it to the Power Hub.
+4. Plug in the 5V Power Supply from the Starter Kit and connect it to the U2D2 Power Hub to power the motors.
 
 
-5. OPTIONAL: Use the included rivets and supports to secure the U2D2 and Power Hub to the side or bottom of the labyrinth. Additionally, secure the cables with zip ties and zip tie mounts, if desired. 
+5. OPTIONAL: Use the included rivets and supports to secure the U2D2 and Power Hub to the side or bottom of the labyrinth. If desired, organize the cables with zip ties and zip tie mounts. 
 <!-- (TODO photo) -->
