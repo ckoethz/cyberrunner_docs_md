@@ -51,7 +51,7 @@ Reload Mechanism
 ![marble_tray](img/marble_tray_removal.jpg)
 <br><br>
 
-2. Install the legs on the labyrinth. Note that the leg at the marble output has a particular design to join with the reloading marble tray. The rest are interchangeable.
+2. Install the legs on each corner of the labyrinth.
 
 3. Start assembling the new marble tray which houses the LED and light sensor to detect the marble and the solenoid to launch the marble. We will first start with the light sensor and LED wiring. 
     - Solder the pins onto the light sensor so that they are on the other side of the light sensor. (WARNING: IT IS IN THE OPPOSITE DIRECTION IN THE PHOTO)

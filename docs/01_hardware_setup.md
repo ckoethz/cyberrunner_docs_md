@@ -47,7 +47,7 @@ Hardware Setup
 
 ### Camera
 * 1x <a href="https://www.e-consystems.com/industrial-cameras/ar0234-usb3-global-shutter-camera.asp#" target="_blank">See3CAM_24CUG USB3 Camera</a> (with enclosure)
-* 1x <a href="https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/camera/camera_mounting_plate.STEP" target="_blank">Camera mounting plate</a> 
+* 1x <a href="https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/camera/camera_mounting_plate.step" target="_blank">Camera mounting plate</a> 
 * 1x <a href="https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/camera/camera_assembly_mount.step" target="_blank">Camera assembly bracket</a>
 * 4x M2x8 bolts to attach the camera to the mounting plate
 * 2x 2020 T-slotted Aluminum with lengths of 40 cm and 20 cm
