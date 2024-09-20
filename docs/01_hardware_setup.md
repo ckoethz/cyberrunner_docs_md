@@ -55,7 +55,7 @@ Hardware Setup
 * 7x L-brackets for T-slotted aluminum, size M5
 * 9x T-slot nuts, size M5
 * 9x T-slot bolts, size M5x8
-* 2x T-slot bolts to mount the camera, size M5x10
+* 2x T-slot bolts to attach the mounting plate to the L-brackets, size M4x10
 * 4x M2.5x10 bolts to attach the assembly bracket to the labyrinth
 * 3x M3x8 bolts to mount the camera assembly to the bracket on the labyrinth
 * 3x M3 washers to sit between the bolts and the L-brackets that attach to the assembly bracket

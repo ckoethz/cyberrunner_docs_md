@@ -27,6 +27,8 @@ Reload Mechanism
 * <a href="https://www.adafruit.com/product/793" target="_blank">F/F Jumper Cables</a> (Example)
 * 9x M3x8 bolts 
 * 6x M3x12 bolts
+* 4x M2x16 bolts
+* 4x M2 nuts
 * Heat shrink
 * Optional: Barrel jack adapter to power the solenoid
 
@@ -84,7 +86,11 @@ Reload Mechanism
 ![reload_wiring](img/reload_wiring.jpg)
 <br><br>
 
-10. Secure the relay and Arduino in the electronics housing. Attach it to the labyrinth with two M3x12 bolts.
+10. Secure the relay in the electronics housing with M2x16 bolts and nuts. Press-fit the Arduino in the leg features. 
+![housing_layout](img/electronics_housing_layout.jpg)
+<br><br>
+
+11. Attach the housing to the labyrinth with two M3x12 bolts.
 <br><br>
 
 ## Configuring the Electronics
