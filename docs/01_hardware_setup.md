@@ -19,6 +19,7 @@ Hardware Setup
 * 2x <a href="https://www.robotis.us/dynamixel-xl330-m077-t/" target="_blank">ROBOTIS Dynamixel XL330-M077-T</a>
 * 1x <a href="https://www.robotis.us/dynamixel-starter-set-us/" target="_blank">ROBOTIS Dynamixel Starter Set</a> (select the correct US/INTL version)
 * 3x wires to extend cable to reach between both motors
+* 1x 5V Power Supply 
 * 2x <a href="https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/motors/motor_shaft_coupler.step" target="_blank">Motor couplings</a> (to 3d print)
     Note: These couplings may break after being coupled to the motor. We recommend to print 2x extra.
 * 2x <a href="https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/motors/motor_mounting_bracket.step" target="_blank">Motor mounting brackets</a> (to 3d print)
@@ -165,7 +166,11 @@ Next, blue markers are placed on the labyrinth to estimate the inclination angle
 4. Connect the camera to the computer with the included USB cable.
 
 
-4. Plug in the 5V Power Supply from the Starter Kit and connect it to the U2D2 Power Hub to power the motors.
+4. Plug in the 5V Power Supply and connect it to the U2D2 Power Hub to power the motors.
+
+!!! warning "Warning"
+
+    The power supply in the Starter Kit is 12 V and should not be with these motors!
 
 
 5. OPTIONAL: Use the included rivets and supports to secure the U2D2 and Power Hub to the side or bottom of the labyrinth. If desired, organize the cables with zip ties and zip tie mounts. 
