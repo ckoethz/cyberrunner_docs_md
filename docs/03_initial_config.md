@@ -16,7 +16,8 @@ In order for the position of the ball within the labyrinth to be tracked, we nee
     To take the calibration pictures, you may use the script provided by the `cyberrunner_camera` package. This ensures that the calibration pictures are taken using the correct resolution and field of view.
 
             ros2 run cyberrunner_camera take_pictures.py
-        Example calibration pictures are shown below. TODO
+    
+    Example calibration pictures are shown below. TODO
 
 3. Save the calibration results by clicking on **Export Data** in the OCamCalib GUI. This will create the file `calib_results.txt` in your MATLAB workspace.
 
