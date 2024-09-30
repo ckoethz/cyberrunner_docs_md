@@ -19,7 +19,7 @@ Hardware Setup
 * 2x <a href="https://www.robotis.us/dynamixel-xl330-m077-t/" target="_blank">ROBOTIS Dynamixel XL330-M077-T</a>
 * 1x <a href="https://www.robotis.us/dynamixel-starter-set-us/" target="_blank">ROBOTIS Dynamixel Starter Set</a> (select the correct US/INTL version)
 * 3x wires to extend cable to reach between both motors
-* 1x 5V Power Supply 
+* 1x 5V Power Supply (TODO: add example) 
 * 2x <a href="https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/motors/motor_shaft_coupler.step" target="_blank">Motor couplings</a> (to 3d print)
     Note: These couplings may break after being coupled to the motor. We recommend to print 2x extra.
 * 2x <a href="https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/motors/motor_mounting_bracket.step" target="_blank">Motor mounting brackets</a> (to 3d print)
@@ -144,7 +144,7 @@ Next, blue markers are placed on the labyrinth to estimate the inclination angle
 
 1. Place the first four blue labels on the center of each corners of the labyrinth playing surface. The labels should align with the outer edges since the diameter of the labels and the width of the edge are both 8mm. 
 <br><br>
-2. Place the next four blue labels on the outer perimeter of the labyrinth. The centers of each label should be 5cm from the edge of the game along the short sides of the labyrinth, as shown in the image below. 
+2. Place the next four blue labels on the outer perimeter of the labyrinth. The centers of each label should be 5cm from the edge of the game along the short sides of the labyrinth, as shown in the image below. (TODO Update description)
 <br><br>
 ![markers](img/markers.jpg)
 

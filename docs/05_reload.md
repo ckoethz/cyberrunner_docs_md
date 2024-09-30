@@ -97,4 +97,6 @@ Reload Mechanism
 
 1. Plug in the Arduino to your PC and upload <a href="https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/reload/arduino/main_high_low.ino" target="_blank">this script</a> to the Arduino Nano. Ensure that the BH1750 library is installed.
 
-2. If the Arduino is powered, you should hear the relay respond when (1) the LED is covered in the marble tray and (2) every minute without sensor detection. The latter response attempts to jiggle out stuck marbles from the labyrinth. 
+2. If the Arduino is powered, you should hear the relay respond when the LED is blocked by the marble. Power the solenoid with the 24V power supply to engage the reload feature!
+
+ <!-- and (2) every 10 minutes without sensor detection. The latter response attempts to jiggle out stuck marbles from the labyrinth. -->

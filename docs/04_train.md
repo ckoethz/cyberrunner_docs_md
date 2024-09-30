@@ -25,7 +25,7 @@ Train
 
         ros2 run cyberrunner_dreamer train
         
-   and wait until you see the first logs for step 0.
+    and wait until you see the first logs for step 0.
 
 6. Place the ball at the starting location on the labyrinth, and press `ENTER` in terminal 4. CyberRunner will start playing the game.
 

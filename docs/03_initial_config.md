@@ -30,9 +30,11 @@ In order for the position of the ball within the labyrinth to be tracked, we nee
 
         ros2 run cyberrunner_camera select_corners.py
         
-6. (Optional) Create mask. TODO
+<!-- 6. (Optional) Create mask. TODO -->
 
 ## Motor Configuration
+
+TODO: Update to our script
 
 1. Install [Dynamixel Wizard 2.0](https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_wizard2/).
 2. Temporarily disconnect the front motor. Connect the U2D2 to your host PC and ensure that the motors are turned on by pressing the power switch on the U2D2 Power Hub Board. TODO PICTURE
