@@ -19,7 +19,7 @@ Hardware Setup
 * 2x <a href="https://www.robotis.us/dynamixel-xl330-m077-t/" target="_blank">ROBOTIS Dynamixel XL330-M077-T</a>
 * 1x <a href="https://www.robotis.us/dynamixel-starter-set-us/" target="_blank">ROBOTIS Dynamixel Starter Set</a> (select the correct US/INTL version)
 * 3x wires to extend cable to reach between both motors
-* 1x 5V Power Supply (TODO: add example) 
+* 1x 5V Power Supply - <a href="https://www.amazon.de/Power-Supply-Plug-5-5mm-2-1mm/dp/B0BYS9Y2B6/ref=sr_1_2_sspa?crid=R8KO5GYZAR49&dib=eyJ2IjoiMSJ9.xlZiq89JrSffcVDgyqOzfMSyqwpGm1ExKZt05eb6-XxQBWNib9lIwswflXgjDhB5MaOZwgB-_T_ZswwQ_oAt7xPoQ--wz8ZTBhe1niizDWWidU8dNpr8vAxNbddoWX8_ilaCF-70jVGGe2hytykvem3U3N0EroijfMmSbymZ_6XL-F0Beqh9QsQj1KQL7cNy7xMLCoLuENOzaofyxLcVyKqKIivtN1gpPD1TeOMNpVg.zxWzgP6oPAUBrzxTkO_C-K_k5jocPtWKIIlBHqFmrsA&dib_tag=se&keywords=5v+3a+power+supply&qid=1727706914&sprefix=5V+3A+power%2Caps%2C135&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" target="_blank">example</a>
 * 2x <a href="https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/motors/motor_shaft_coupler.step" target="_blank">Motor couplings</a> (to 3d print)
     Note: These couplings may break after being coupled to the motor. We recommend to print 2x extra.
 * 2x <a href="https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/motors/motor_mounting_bracket.step" target="_blank">Motor mounting brackets</a> (to 3d print)
@@ -142,9 +142,9 @@ The camera has to be have a stable view of the whole labyrinth. This can be done
 
 Next, blue markers are placed on the labyrinth to estimate the inclination angles of the labyrinth playing surface.
 
-1. Place the first four blue labels on the center of each corners of the labyrinth playing surface. The labels should align with the outer edges since the diameter of the labels and the width of the edge are both 8mm. 
+1. Place the first four blue labels on the center of each corners of the inner labyrinth playing surface. The labels should align with the outer edges since the diameter of the labels and the width of the edge are both 8mm. 
 <br><br>
-2. Place the next four blue labels on the outer perimeter of the labyrinth. The centers of each label should be 5cm from the edge of the game along the short sides of the labyrinth, as shown in the image below. (TODO Update description)
+2. Place the next four blue labels on the outer perimeter of the labyrinth. The centers of each label should be 5cm from the inner edge of the external enclosure of the game along the short sides of the labyrinth, as shown in the image below.
 <br><br>
 ![markers](img/markers.jpg)
 
