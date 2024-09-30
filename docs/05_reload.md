@@ -95,7 +95,7 @@ Reload Mechanism
 
 ## Configuring the Electronics
 
-1. Plug in the Arduino to your PC and upload <a href="https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/reload/arduino/main_high_low.ino" target="_blank">this script</a> to the Arduino Nano. Ensure that the BH1750 library is installed.
+1. Plug in the Arduino to your PC and upload <a href="https://github.com/ckoethz/cyberrunner_docs_md/blob/main/assets/reload/arduino/main.ino" target="_blank">this script</a> to the Arduino Nano. Ensure that the BH1750 library is installed.
 
 2. If the Arduino is powered, you should hear the relay respond when the LED is blocked by the marble. Power the solenoid with the 24V power supply to engage the reload feature!
 
